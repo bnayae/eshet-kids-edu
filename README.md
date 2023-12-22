@@ -34,3 +34,51 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+# Tailwind
+
+- [Docs](https://tailwindcss.com/)
+- [components](https://tailwindui.com/)
+
+# Node
+
+## Control Node version
+
+See [this]() article.
+
+```bash
+node -v
+lvm ls
+```
+
+Install a version
+
+```bash
+nvm install 20.10.0
+```
+
+Setting a Default Node.js Version
+
+```bash
+nvm alias default 18.18.2
+nvm use default
+
+# latest stable as default
+nvm alias default stable
+nvm use default
+
+# one time use
+nvm use nvm use 12.x
+```
+
+Check it
+
+```bash
+node -v
+```
+
+Set a specific version
+
+```bash
+nvm use [version]
+```
